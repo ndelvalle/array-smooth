@@ -63,5 +63,8 @@
   ],
   "engines": {
     "node": ">=4"
+  },
+  "dependencies": {
+    "dot-prop": "^4.2.0"
   }
 }

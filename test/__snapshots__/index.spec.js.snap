@@ -1,20 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`arraySmooth smooths a given array  1`] = `
-Array [
-  2,
-  2.5,
-  3,
-  4,
-  5,
-  6,
-  7,
-  8,
-  8.5,
-  9,
-]
-`;
-
 exports[`arraySmooth smooths a given array 1`] = `
 Array [
   2,
@@ -30,17 +15,182 @@ Array [
 ]
 `;
 
-exports[`arraySmooth smooths a given array using a getter 1`] = `
+exports[`arraySmooth smooths a given array using a getter function 1`] = `
 Array [
+  3,
+  3.5,
+  4,
+  4.5,
+  5,
+  6,
+  6.5,
+  7,
+  7.5,
+  8,
+]
+`;
+
+exports[`arraySmooth smooths a given array using a getter string 1`] = `
+Array [
+  1.5,
   2,
-  2.5,
   3,
   4,
   5,
   6,
   7,
   8,
-  8.5,
   9,
+  9.5,
+]
+`;
+
+exports[`arraySmooth smooths a given array using a setter function 1`] = `
+Array [
+  Object {
+    "smoothed": Object {
+      "value": 2,
+    },
+    "value": 1,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 2.5,
+    },
+    "value": 2,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 3,
+    },
+    "value": 3,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 4,
+    },
+    "value": 4,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 5,
+    },
+    "value": 5,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 6,
+    },
+    "value": 6,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 7,
+    },
+    "value": 7,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 8,
+    },
+    "value": 8,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 8.5,
+    },
+    "value": 9,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 9,
+    },
+    "value": 10,
+  },
+]
+`;
+
+exports[`arraySmooth smooths a given array using a setter string 1`] = `
+Array [
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": undefined,
+      },
+      "value": 1,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": undefined,
+      },
+      "value": 2,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": undefined,
+      },
+      "value": 3,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": undefined,
+      },
+      "value": 4,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": undefined,
+      },
+      "value": 5,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": undefined,
+      },
+      "value": 6,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": undefined,
+      },
+      "value": 7,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": undefined,
+      },
+      "value": 8,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": undefined,
+      },
+      "value": 9,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": undefined,
+      },
+      "value": 10,
+    },
+  },
 ]
 `;
