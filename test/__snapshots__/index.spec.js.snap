@@ -115,7 +115,7 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": undefined,
+        "smoothed": 2,
       },
       "value": 1,
     },
@@ -123,7 +123,7 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": undefined,
+        "smoothed": 2.5,
       },
       "value": 2,
     },
@@ -131,7 +131,7 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": undefined,
+        "smoothed": 3,
       },
       "value": 3,
     },
@@ -139,7 +139,7 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": undefined,
+        "smoothed": 4,
       },
       "value": 4,
     },
@@ -147,7 +147,7 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": undefined,
+        "smoothed": 5,
       },
       "value": 5,
     },
@@ -155,7 +155,7 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": undefined,
+        "smoothed": 6,
       },
       "value": 6,
     },
@@ -163,7 +163,7 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": undefined,
+        "smoothed": 7,
       },
       "value": 7,
     },
@@ -171,7 +171,7 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": undefined,
+        "smoothed": 8,
       },
       "value": 8,
     },
@@ -179,7 +179,7 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": undefined,
+        "smoothed": 8.5,
       },
       "value": 9,
     },
@@ -187,7 +187,7 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": undefined,
+        "smoothed": 9,
       },
       "value": 10,
     },

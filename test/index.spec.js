@@ -41,7 +41,7 @@ describe('arraySmooth', () => {
     const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((number) => ({
       s: { value: number },
     }))
-    const getter = (obj) => obj.value
+    const getter = (obj) => obj.s.value
     const setter = 's.item.smoothed'
     const range = 2
     expect(arraySmooth(arr, range, getter, setter)).toMatchSnapshot()
