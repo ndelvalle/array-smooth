@@ -25,7 +25,7 @@ $ yarn add array-smooth
 const smooth = require('array-smooth')
 
 const arr = [15, 2, 3, 14, 5, 6, 2, 8, 9, 10, 22, 3, 2, 11, 12]
-const smoothWidth = 2
+const smoothOffset = 2
 const arrSmoothed = smooth(arr, smoothOffset)
 
 // arrSmoothed: [6.666666666666667, 8.5, 7.8, 6, 6, 7, 6, 7, 10.2, 10.4, 9.2, 9.6, 10, 7, 8.333333333333334]
