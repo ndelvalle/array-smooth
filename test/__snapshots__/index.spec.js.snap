@@ -2,46 +2,130 @@
 
 exports[`arraySmooth smooths a given array 1`] = `
 Array [
-  2,
-  2.5,
   3,
   4,
-  5,
-  6,
+  4.8,
+  6.6,
+  6.4,
+  6.4,
   7,
-  8,
-  8.5,
-  9,
+  5.6,
+  3.8,
+  5.2,
+  6.6,
+  5,
+  5.6,
+  6.6,
+  5.2,
+  4.8,
+  4.6,
+  4.2,
+  3.8,
+  4.8,
+  3,
+  3,
+  2.8,
+  4,
+  3,
+  3.2,
+  4.6,
+  4.8,
+  5,
+  7.6,
+  7.4,
+  6,
+  9.4,
+  11.2,
+  10.6,
+  11,
+  13.5,
+  11.666666666666666,
 ]
 `;
 
 exports[`arraySmooth smooths a given array using a getter function 1`] = `
 Array [
-  3,
-  3.5,
+  4.8,
+  5.666666666666667,
+  5.142857142857143,
+  5.125,
+  5.666666666666667,
+  5.666666666666667,
+  5.444444444444445,
+  5.888888888888889,
+  6.444444444444445,
+  5.777777777777778,
+  5.111111111111111,
+  5.555555555555555,
+  5.222222222222222,
+  5.222222222222222,
+  5.222222222222222,
+  5.333333333333333,
+  4.777777777777778,
+  4.222222222222222,
+  4.111111111111111,
+  3.7777777777777777,
+  3.2222222222222223,
+  4.111111111111111,
+  3.2222222222222223,
+  3.3333333333333335,
   4,
-  4.5,
-  5,
-  6,
-  6.5,
-  7,
-  7.5,
-  8,
+  3.7777777777777777,
+  4.222222222222222,
+  5.777777777777778,
+  5.777777777777778,
+  5.777777777777778,
+  6.777777777777778,
+  8.777777777777779,
+  9.88888888888889,
+  9.333333333333334,
+  10.25,
+  10.142857142857142,
+  9.333333333333334,
+  11,
 ]
 `;
 
 exports[`arraySmooth smooths a given array using a getter string 1`] = `
 Array [
-  1.5,
   2,
   3,
-  4,
   5,
+  6.666666666666667,
+  8.333333333333334,
+  6.666666666666667,
+  5.666666666666667,
+  5.666666666666667,
+  5.333333333333333,
+  4,
+  3.6666666666666665,
+  7.333333333333333,
+  7.666666666666667,
   6,
+  4,
+  4,
+  6,
+  4.333333333333333,
+  4.333333333333333,
+  2.3333333333333335,
+  4.333333333333333,
+  4,
+  3,
+  1,
+  4,
+  4.333333333333333,
+  4.666666666666667,
+  4,
+  4,
   7,
-  8,
+  9.333333333333334,
   9,
-  9.5,
+  5.666666666666667,
+  7,
+  13.333333333333334,
+  17,
+  11.666666666666666,
+  7.5,
 ]
 `;
 
@@ -49,13 +133,121 @@ exports[`arraySmooth smooths a given array using a setter function 1`] = `
 Array [
   Object {
     "smoothed": Object {
-      "value": 2,
+      "value": 3,
     },
     "value": 1,
   },
   Object {
     "smoothed": Object {
-      "value": 2.5,
+      "value": 4,
+    },
+    "value": 3,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 4.8,
+    },
+    "value": 5,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 6.6,
+    },
+    "value": 7,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 6.4,
+    },
+    "value": 8,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 6.4,
+    },
+    "value": 10,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 7,
+    },
+    "value": 2,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 5.6,
+    },
+    "value": 5,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 3.8,
+    },
+    "value": 10,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 5.2,
+    },
+    "value": 1,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 6.6,
+    },
+    "value": 1,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 5,
+    },
+    "value": 9,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 5.6,
+    },
+    "value": 12,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 6.6,
+    },
+    "value": 2,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 5.2,
+    },
+    "value": 4,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 4.8,
+    },
+    "value": 6,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 4.6,
+    },
+    "value": 2,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 4.2,
+    },
+    "value": 10,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 3.8,
+    },
+    "value": 1,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 4.8,
     },
     "value": 2,
   },
@@ -63,49 +255,109 @@ Array [
     "smoothed": Object {
       "value": 3,
     },
-    "value": 3,
-  },
-  Object {
-    "smoothed": Object {
-      "value": 4,
-    },
     "value": 4,
   },
   Object {
     "smoothed": Object {
-      "value": 5,
-    },
-    "value": 5,
-  },
-  Object {
-    "smoothed": Object {
-      "value": 6,
-    },
-    "value": 6,
-  },
-  Object {
-    "smoothed": Object {
-      "value": 7,
+      "value": 3,
     },
     "value": 7,
   },
   Object {
     "smoothed": Object {
-      "value": 8,
+      "value": 2.8,
+    },
+    "value": 1,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 4,
+    },
+    "value": 1,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 3,
+    },
+    "value": 1,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 3.2,
+    },
+    "value": 10,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 4.6,
+    },
+    "value": 2,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 4.8,
+    },
+    "value": 2,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 5,
     },
     "value": 8,
   },
   Object {
     "smoothed": Object {
-      "value": 8.5,
+      "value": 7.6,
     },
-    "value": 9,
+    "value": 2,
   },
   Object {
     "smoothed": Object {
-      "value": 9,
+      "value": 7.4,
     },
-    "value": 10,
+    "value": 11,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 6,
+    },
+    "value": 15,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 9.4,
+    },
+    "value": 1,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 11.2,
+    },
+    "value": 1,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 10.6,
+    },
+    "value": 19,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 11,
+    },
+    "value": 20,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 13.5,
+    },
+    "value": 12,
+  },
+  Object {
+    "smoothed": Object {
+      "value": 11.666666666666666,
+    },
+    "value": 3,
   },
 ]
 `;
@@ -115,7 +367,7 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": 2,
+        "smoothed": 3,
       },
       "value": 1,
     },
@@ -123,7 +375,151 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": 2.5,
+        "smoothed": 4,
+      },
+      "value": 3,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 4.8,
+      },
+      "value": 5,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 6.6,
+      },
+      "value": 7,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 6.4,
+      },
+      "value": 8,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 6.4,
+      },
+      "value": 10,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 7,
+      },
+      "value": 2,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 5.6,
+      },
+      "value": 5,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 3.8,
+      },
+      "value": 10,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 5.2,
+      },
+      "value": 1,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 6.6,
+      },
+      "value": 1,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 5,
+      },
+      "value": 9,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 5.6,
+      },
+      "value": 12,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 6.6,
+      },
+      "value": 2,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 5.2,
+      },
+      "value": 4,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 4.8,
+      },
+      "value": 6,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 4.6,
+      },
+      "value": 2,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 4.2,
+      },
+      "value": 10,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 3.8,
+      },
+      "value": 1,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 4.8,
       },
       "value": 2,
     },
@@ -133,37 +529,13 @@ Array [
       "item": Object {
         "smoothed": 3,
       },
-      "value": 3,
-    },
-  },
-  Object {
-    "s": Object {
-      "item": Object {
-        "smoothed": 4,
-      },
       "value": 4,
     },
   },
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": 5,
-      },
-      "value": 5,
-    },
-  },
-  Object {
-    "s": Object {
-      "item": Object {
-        "smoothed": 6,
-      },
-      "value": 6,
-    },
-  },
-  Object {
-    "s": Object {
-      "item": Object {
-        "smoothed": 7,
+        "smoothed": 3,
       },
       "value": 7,
     },
@@ -171,7 +543,55 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": 8,
+        "smoothed": 2.8,
+      },
+      "value": 1,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 4,
+      },
+      "value": 1,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 3,
+      },
+      "value": 1,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 3.2,
+      },
+      "value": 10,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 4.6,
+      },
+      "value": 2,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 4.8,
+      },
+      "value": 2,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 5,
       },
       "value": 8,
     },
@@ -179,17 +599,73 @@ Array [
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": 8.5,
+        "smoothed": 7.6,
       },
-      "value": 9,
+      "value": 2,
     },
   },
   Object {
     "s": Object {
       "item": Object {
-        "smoothed": 9,
+        "smoothed": 7.4,
       },
-      "value": 10,
+      "value": 11,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 6,
+      },
+      "value": 15,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 9.4,
+      },
+      "value": 1,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 11.2,
+      },
+      "value": 1,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 10.6,
+      },
+      "value": 19,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 11,
+      },
+      "value": 20,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 13.5,
+      },
+      "value": 12,
+    },
+  },
+  Object {
+    "s": Object {
+      "item": Object {
+        "smoothed": 11.666666666666666,
+      },
+      "value": 3,
     },
   },
 ]
