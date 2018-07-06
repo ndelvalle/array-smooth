@@ -1,6 +1,4 @@
 /* eslint-disable import/no-extraneous-dependencies */
-const dotProp = require('dot-prop')
-
 function getSample(arr, index, offset) {
   const leftOffeset = index - offset
   const from = leftOffeset >= 0 ? leftOffeset : 0

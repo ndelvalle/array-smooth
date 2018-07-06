@@ -31,7 +31,6 @@
   "homepage": "https://github.com/ndelvalle/array-smooth#readme",
   "devDependencies": {
     "benchmark": "^2.1.4",
-    "dot-prop": "^4.2.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
