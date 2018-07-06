@@ -13,7 +13,8 @@
     "lint": "eslint . --ext .js",
     "format": "prettier --write '**/*.{js,json,md}'",
     "format:changed": "pretty-quick",
-    "format:staged": "pretty-quick --staged"
+    "format:staged": "pretty-quick --staged",
+    "benchmark": "node benchmarks/ops-per-second.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
   "homepage": "https://github.com/ndelvalle/array-smooth#readme",
   "devDependencies": {
     "benchmark": "^2.1.4",
+    "dot-prop": "^4.2.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
@@ -65,8 +67,5 @@
   ],
   "engines": {
     "node": ">=4"
-  },
-  "dependencies": {
-    "dot-prop": "^4.2.0"
   }
 }
