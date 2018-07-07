@@ -13,7 +13,8 @@
     "lint": "eslint . --ext .js",
     "format": "prettier --write '**/*.{js,json,md}'",
     "format:changed": "pretty-quick",
-    "format:staged": "pretty-quick --staged"
+    "format:staged": "pretty-quick --staged",
+    "benchmark": "node benchmarks/ops-per-second.js"
   },
   "repository": {
     "type": "git",
@@ -65,8 +66,5 @@
   ],
   "engines": {
     "node": ">=4"
-  },
-  "dependencies": {
-    "dot-prop": "^4.2.0"
   }
 }
