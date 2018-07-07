@@ -25,32 +25,49 @@ $ yarn add array-smooth
 const smooth = require('array-smooth')
 
 const arr = [15, 2, 3, 14, 5, 6, 2, 8, 9, 10, 22, 3, 2, 11, 12]
-const smoothOffset = 2
-const arrSmoothed = smooth(arr, smoothOffset)
+const windowSize = 2
+const arrSmoothed = smooth(arr, windowSize)
 
 // arrSmoothed: [6.666666666666667, 8.5, 7.8, 6, 6, 7, 6, 7, 10.2, 10.4, 9.2, 9.6, 10, 7, 8.333333333333334]
 ```
 
 ### API
 
-#### smooth(array, smoothOffset, [getter], [setter])
+#### smooth(array, windowSize, [getter], [setter])
 
-###### array
+###### array `array`
 
 An array containing the values that we want to smooth, it can be an array of numbers or an array of objects defining a specific getter and / or setter
 
-###### smoothOffset
+###### windowSize `number`
 
-The smooth offset option its a number that specifies the width of the moving average. It represents how many values to the right and left of the current index the algorithm will take in account when getting the sample to generate the smoothed value
+The smooth window option its a number that specifies the width of the moving average. It represents how many values to the right and left of the current index the algorithm will take in account when getting the sample to generate the smoothed value
 
-###### getter
+###### getter(value) `function`
 
-It can be a `string` or a `function`, this value defines how to access the desire value to smooth the array with
+This function will receive the array value as an argument, it should return the attribute to smooth the array with. Is equivalent to calling `array.map(getter)`
 
-###### setter
+Example:
 
-It can be a `string` or a `function`, this value defines how to set / store the smoothed value into the object
+```js
+const arr = [ { value: 15 }, { value: 2 }, { value: 3 }, { value: 14 }, { value: 5 }]
+
+const getter = (item) => item.value
+```
+
+###### setter(value, smoothedValue) `function`
+
+This function receives `value` and `smoothedValue` as arguments. The response will be the item that will populate the result array
+
+Example:
+
+```js
+const arr = [ { value: 15 }, { value: 2 }, { value: 3 }, { value: 14 }, { value: 5 }]
+
+const getter = (item) => item.value
+const setter = (item, itemSomoothed) => ({ value: item, valueSmoothed: itemSomoothed })
+```
 
 ### Playground
 
-[![Edit array-smooth](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/llmnp39r57)
+[![Edit array-smooth](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/0mp1zxy4vl?module=%2Fsrc%2Findex.js)
