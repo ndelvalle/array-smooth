@@ -1,5 +1,4 @@
 /* eslint-disable no-console,camelcase,no-plusplus,no-use-before-define */
-const smoothMap = require('./map-implementation')
 const smoothFor = require('../lib')
 const sample = require('../test/fixture')
 
@@ -49,14 +48,6 @@ function large_array_benchmark(times, smooth_factor, map, getter) {
     smoothFor(big_array, smooth_factor)
   }
   console.timeEnd('for')
-
-  console.time('map')
-  if (getter) {
-    smoothMap(big_array, smooth_factor, getter)
-  } else {
-    smoothMap(big_array, smooth_factor)
-  }
-  console.timeEnd('map')
 
   console.log()
   console.log('--------------------')
