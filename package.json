@@ -14,7 +14,7 @@
     "format": "prettier --write '**/*.{js,json,md}'",
     "format:changed": "pretty-quick",
     "format:staged": "pretty-quick --staged",
-    "benchmark": "node benchmarks/ops-per-second.js"
+    "benchmark": "node benchmarks/ops-per-second && node benchmarks/big-array"
   },
   "repository": {
     "type": "git",

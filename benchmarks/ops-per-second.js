@@ -23,9 +23,6 @@ function benchmarkCase(arr, smooth, getter) {
   const events = []
 
   suite
-    .add('Smooth (map)', () => {
-      smoothMap(arr, smooth, getter)
-    })
     .add('Smooth (for)', () => {
       smoothFor(arr, smooth, getter)
     })
@@ -40,8 +37,6 @@ function benchmarkCase(arr, smooth, getter) {
       console.log(`Length: ${arr.length}`)
       console.log()
       events.forEach((e) => console.log(e))
-      console.log()
-      console.log(`Fastest is ${suite.filter('fastest').map('name')}`)
       console.log()
       console.log('------------------------------------------------')
       console.log()
