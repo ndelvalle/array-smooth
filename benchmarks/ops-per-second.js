@@ -2,7 +2,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const Benchmark = require('benchmark')
 
-const smoothMap = require('./map-implementation')
 const smoothFor = require('../lib')
 const sample = require('../test/fixture')
 
