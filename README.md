@@ -50,7 +50,7 @@ This function will receive the array value as an argument, it should return the 
 Example:
 
 ```js
-const arr = [ { value: 15 }, { value: 2 }, { value: 3 }, { value: 14 }, { value: 5 }]
+const arr = [{ value: 15 }, { value: 2 }, { value: 3 }, { value: 14 }, { value: 5 }]
 
 const getter = (item) => item.value
 ```
@@ -62,7 +62,7 @@ This function receives `value` and `smoothedValue` as arguments. The response wi
 Example:
 
 ```js
-const arr = [ { value: 15 }, { value: 2 }, { value: 3 }, { value: 14 }, { value: 5 }]
+const arr = [{ value: 15 }, { value: 2 }, { value: 3 }, { value: 14 }, { value: 5 }]
 
 const getter = (item) => item.value
 const setter = (item, itemSomoothed) => ({ value: item, valueSmoothed: itemSomoothed })
