@@ -1,6 +1,6 @@
 {
   "name": "array-smooth",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Moving average smoothing, replaces each point in the array with the average of \"x\" adjacent points",
   "main": "lib/index.js",
   "directories": {
